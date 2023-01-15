@@ -1,0 +1,14 @@
+:root {
+    --color-background-default: #fff;
+    --color-background-almost-default: #f5f5f5;
+    --color-background-variation-1: #eee;
+    --color-background-variation-2: #bbb;
+    --color-text-default: #111;
+    --color-text-variation-1: #333;
+    --color-text-variation-2: #555;
+    --color-text-link: #6b4e3d;
+    --color-text-link-hover: #999;
+    --color-border-default: #bbb;
+    --color-border-variation-1: #999;
+    --color-brown: #6b4e3d;
+ }

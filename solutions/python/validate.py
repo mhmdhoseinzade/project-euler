@@ -16,7 +16,7 @@ def main() -> None:
                 file_name = file.split(".")[0]
                 if not file_name.startswith("problem_"):
                     continue
-                print(f"     Problem {file_name}")
+                print(f"\n     Problem {file_name}")
                 module = importlib.import_module(f"{file_name}")
                 klass = getattr(module, CLASS_NAME)
                 method_list = [getattr(klass,method) for method in dir(klass) if method.startswith(METHOD_PREFIX) and callable(getattr(klass,method))]
@@ -37,7 +37,7 @@ def main() -> None:
                 if not method_list:
                     print() 
 		            
-    print(f"total time {totaltime}")
+    print(f"\ntotal time {totaltime}")
 
 
 main()

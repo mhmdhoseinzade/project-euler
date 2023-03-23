@@ -3,7 +3,7 @@ from Isolution import ISolution
 class Solution(ISolution):
 
     @staticmethod
-    def test_answer_one():
+    def answer_one():
         
         def is_primary(number):
             import math
